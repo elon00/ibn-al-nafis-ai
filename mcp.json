@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "ibn-al-nafis-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "NAFIS",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "simulate_pulmonary_blood_transit",
+          "description": "Models right-to-left cardiac blood volume transit across pulmonary capillary bed",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "stroke_volume_ml": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "stroke_volume_ml"
+            ]
+          }
+        },
+        {
+          "name": "calculate_coronary_perfusion_pressure",
+          "description": "Computes diastolic aortic pressure gradient feeding myocardial microvasculature",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "diastolic_bp": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "diastolic_bp"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
