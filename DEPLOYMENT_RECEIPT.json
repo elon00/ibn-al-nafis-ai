@@ -1,0 +1,14 @@
+{
+  "project": "ibn-al-nafis-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "6qEPqPsCTqKz2EvkQi452jwrPvRgUngaoMTfBMkrdfC5",
+  "vault_account": "6pEvo1v3rzhEL6HA6CFZmUa8T6mjfCdpMLhEc2t5YKhi",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "42NUbdFpPKJueoJBxvxkWxt433J3mUW6PAYfANuuvnSMXAHzF1su9rTyAx5MFTudg34abyDmAMcmhGbgBQN3ipTf",
+  "account_tx": "2hQvMYgsqpNcoWezZoW8WK3zM3GoEbFw4r42P5atXrsRSQvwqU7GdpxWPdTDxCSHK2917zXtH8Kp9BEZiyLwTvts",
+  "mint_tx": "3XpPqiRBKrXb9EYa76EW9ArEUYTP8JA5arRwC19RBsEzdU6RBgJDfApAoDMTyaEb8e7yXj9bccsv13AwuCrsAwjA",
+  "solana_explorer_mint": "https://explorer.solana.com/address/6qEPqPsCTqKz2EvkQi452jwrPvRgUngaoMTfBMkrdfC5?cluster=devnet",
+  "timestamp": "2026-10-26 16:40:50 UTC"
+}
